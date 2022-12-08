@@ -249,6 +249,8 @@ class LayoutEntry {
             fieldEntry = postFormatter.format(fieldEntry);
         }
 
+        fieldEntry = fieldEntry.replaceAll("\"", "\"\"");
+
         return fieldEntry;
     }
 
