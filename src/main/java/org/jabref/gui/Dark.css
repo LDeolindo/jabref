@@ -19,6 +19,9 @@
     -jr-yellow: #b5b021;
     -jr-orange: #b77620;
 
+    -jr-contrast-red: #974450;
+    -jr-contrast-blue : #156E70;
+
     -jr-base: #141824;
 
     -jr-background-alt: #151924;
@@ -68,11 +71,11 @@
 }
 
 .addition {
-    -rtfx-background-color: -jr-green;
+    -rtfx-background-color: -jr-contrast-blue;
 }
 
 .deletion {
-    -rtfx-background-color: -jr-red;
+    -rtfx-background-color: -jr-contrast-red;
 }
 
 #previewBody {
